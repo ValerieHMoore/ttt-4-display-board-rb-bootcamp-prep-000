@@ -8,13 +8,13 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} \n"
 end
 board = [" "," "," "," "," "," "," "," "," "]
-display_board
+display_board(board)
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board
+display_board(board)
 
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board
+display_board(board)
